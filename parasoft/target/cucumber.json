@@ -1,0 +1,651 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-25T04:52:56.244Z",
+        "line": 4,
+        "name": "Registering new account",
+        "description": "",
+        "id": "adding-new-customer;registering-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33947176900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open IE browser",
+            "match": {
+              "location": "AddingCustomerSteps.open_IE_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7593614700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Go to \"https://parabank.parasoft.com/parabank/index.htm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://parabank.parasoft.com/parabank/index.htm\"",
+                  "offset": 6
+                }
+              ],
+              "location": "AddingCustomerSteps.go_to(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5063098400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click to Register Link on Homepage",
+            "match": {
+              "location": "AddingCustomerSteps.click_to_Register_Link_on_Homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134897600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should land to Customer Details page",
+            "match": {
+              "location": "AddingCustomerSteps.user_should_land_to_Customer_Details_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28660222900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Put Customer details",
+            "match": {
+              "location": "AddingCustomerSteps.put_Customer_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2280528200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Register button",
+            "match": {
+              "location": "AddingCustomerSteps.click_Register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 768994200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should get text \"Your account was created successfully. You are now logged in.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your account was created successfully. You are now logged in.\"",
+                  "offset": 21
+                }
+              ],
+              "location": "AddingCustomerSteps.user_should_get_text(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8226521100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close browser",
+            "match": {
+              "location": "AddingCustomerSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Adding new customer",
+    "description": "",
+    "id": "adding-new-customer",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AddNewCustomer.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is in Balance Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29936877700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Succesfully LoggedIn",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_Succesfully_LoggedIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2296630000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks to OpenNewAccount",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.clicks_to_OpenNewAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 686418100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User shoould see the options",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_shoould_see_the_options()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-25T04:54:22.973Z",
+        "line": 10,
+        "name": "Creating new Checking account",
+        "description": "",
+        "id": "creating-checking-and-saving-account-and-trasferring-amount;creating-new-checking-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1193233700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User select CHECKINGS from from options",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_select_CHECKINGS_from_from_options()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 641781800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click Open New Account button",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.click_Open_New_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5601980700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should see new account number",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_should_see_new_account_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is in Balance Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 26603505300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Succesfully LoggedIn",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_Succesfully_LoggedIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2923035000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks to OpenNewAccount",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.clicks_to_OpenNewAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 434930300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User shoould see the options",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_shoould_see_the_options()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-25T04:55:03.334Z",
+        "line": 15,
+        "name": "Creating new Savings account",
+        "description": "",
+        "id": "creating-checking-and-saving-account-and-trasferring-amount;creating-new-savings-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1520581600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select SAVINGS from options",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_select_SAVINGS_from_options()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027ANARHOME-PC\u0027, ip: \u002710.238.35.41\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir\u003dC:\\Users\\salma\\AppData\\Local\\Temp\\scoped_dir19916_26530}, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dANY, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54419}, acceptInsecureCerts\u003dfalse, browserVersion\u003d76.0.3809.100, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dwindows nt, setWindowRect\u003dtrue}]\nSession ID: 81ba6b8560a64e81704fa3fef02df44c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy13.click(Unknown Source)\r\n\tat stepDefinitions.CreatingCheckingandSavingsAccount.click_Open_New_Account_button(CreatingCheckingandSavingsAccount.java:54)\r\n\tat ✽.Click Open New Account button(file:src/test/resources/Features/CreateCheckingAndSavingAcount.feature:17)\r\n",
+              "duration": 570064000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "Click Open New Account button",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.click_Open_New_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User should see account number",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_should_see_account_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is in Balance Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027username\u0027]\"}\n  (Session info: chrome\u003d76.0.3809.100)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027ANARHOME-PC\u0027, ip: \u002710.238.35.41\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir\u003dC:\\Users\\salma\\AppData\\Local\\Temp\\scoped_dir30580_14964}, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dANY, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54442}, acceptInsecureCerts\u003dfalse, browserVersion\u003d76.0.3809.100, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dwindows nt, setWindowRect\u003dtrue}]\nSession ID: 00c6f358ad72976927ce476ce159d6c4\n*** Element info: {Using\u003dname, value\u003dusername}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:485)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:303)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy13.sendKeys(Unknown Source)\r\n\tat stepDefinitions.CreatingCheckingandSavingsAccount.user_Succesfully_LoggedIn(CreatingCheckingandSavingsAccount.java:29)\r\n\tat ✽.User Succesfully LoggedIn(file:src/test/resources/Features/CreateCheckingAndSavingAcount.feature:5)\r\n",
+              "duration": 44555081000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User Succesfully LoggedIn",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_Succesfully_LoggedIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Clicks to OpenNewAccount",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.clicks_to_OpenNewAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User shoould see the options",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_shoould_see_the_options()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-25T04:55:35.489Z",
+        "line": 20,
+        "name": "Transfer funds from Checking account to Saving account",
+        "description": "",
+        "id": "creating-checking-and-saving-account-and-trasferring-amount;transfer-funds-from-checking-account-to-saving-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41800,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Click to TransferFunds",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.click_to_TransferFunds()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41200,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Provide the amount",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.provide_the_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40300,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Choose Checking account as fromAccount",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.choose_Checking_account_as_fromAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40500,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Choose Saving account as toAccount",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.choose_Saving_account_as_toAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69600,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Click transfer button",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.click_transfer_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40100,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User should see confirmation message \"Transfer Complete!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Transfer Complete!\"",
+                  "offset": 37
+                }
+              ],
+              "location": "CreatingCheckingandSavingsAccount.user_should_see_confirmation_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is in Balance Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24577394500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Succesfully LoggedIn",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_Succesfully_LoggedIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2039033700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Clicks to OpenNewAccount",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.clicks_to_OpenNewAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 361555100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User shoould see the options",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_shoould_see_the_options()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-25T04:56:20.053Z",
+        "line": 28,
+        "name": "Check Checking balance and Saving Balance",
+        "description": "",
+        "id": "creating-checking-and-saving-account-and-trasferring-amount;check-checking-balance-and-saving-balance",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1611388300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks Account Overview",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_clicks_Account_Overview()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 311371700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should see Account table",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_should_see_Account_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 296900600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User checking the Checking balance",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_checking_the_Checking_balance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 278151200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should see the remain balance",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_should_see_the_remain_balance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinitions.CreatingCheckingandSavingsAccount.user_checking_the_Saving_account(CreatingCheckingandSavingsAccount.java:150)\r\n\tat ✽.User checking the Saving account(file:src/test/resources/Features/CreateCheckingAndSavingAcount.feature:33)\r\n",
+              "duration": 271261700,
+              "status": "failed"
+            },
+            "line": 33,
+            "name": "User checking the Saving account",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_checking_the_Saving_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79900,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User should see the actual balance",
+            "match": {
+              "location": "CreatingCheckingandSavingsAccount.user_should_see_the_actual_balance()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Creating Checking and Saving Account and trasferring amount",
+    "description": "",
+    "id": "creating-checking-and-saving-account-and-trasferring-amount",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/CreateCheckingAndSavingAcount.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-25T04:56:49.806Z",
+        "line": 4,
+        "name": "Create new Checking Account",
+        "description": "",
+        "id": "creating-new-checking-account;create-new-checking-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20278427500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in the HomePage",
+            "match": {
+              "location": "LogginIn.user_is_in_the_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d76.0.3809.100)\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027ANARHOME-PC\u0027, ip: \u002710.238.35.41\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d75.0.3770.140 (2d9f97485c7b07dc18a74666574f19176731995c-refs/branch-heads/3770@{#1155}), userDataDir\u003dC:\\Users\\salma\\AppData\\Local\\Temp\\scoped_dir32660_14888}, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, platform\u003dANY, proxy\u003dProxy(), goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54483}, acceptInsecureCerts\u003dfalse, browserVersion\u003d76.0.3809.100, browserName\u003dchrome, javascriptEnabled\u003dtrue, platformName\u003dwindows nt, setWindowRect\u003dtrue}]\nSession ID: e12955e673553ccc996951bd685dade0\n*** Element info: {Using\u003dname, value\u003dpassword}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:485)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:303)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy13.sendKeys(Unknown Source)\r\n\tat pageObjects.HomePage.signIn(HomePage.java:31)\r\n\tat stepDefinitions.LogginIn.user_provides_valid_Credentials(LogginIn.java:24)\r\n\tat ✽.User provides valid Credentials(file:src/test/resources/Features/Login.feature:6)\r\n",
+              "duration": 7250929700,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User provides valid Credentials",
+            "match": {
+              "location": "LogginIn.user_provides_valid_Credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should successfully login",
+            "match": {
+              "location": "LogginIn.user_should_successfully_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Creating new Checking Account",
+    "description": "",
+    "id": "creating-new-checking-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
